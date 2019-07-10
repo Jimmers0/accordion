@@ -1,0 +1,146 @@
+html {box-sizing:border-box;}
+*, *::before, *::after {box-sizing:inherit;}
+
+#container {
+    width: 530px;
+    height: 253px;
+    border: 2px solid rgb(87, 196,212);
+    overflow: hidden;
+}
+
+#headers1 {
+    width: 527px;
+    height:50px;
+    background-color: rgb(87, 196,212);
+    font-size: 18px;
+    color: white;
+    padding-left: 35px;
+    padding-top:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#headers1:hover {
+    width: 527px;
+    height:50px;
+    background-color: rgb(97, 216, 233);
+    font-size: 18px;
+    color: white;
+    padding-left: 35px;
+    padding-top:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    order: 1px solid rgb(87, 196,212);
+    
+}
+
+#description1 {
+    opacity: 1;
+    height: 100px;
+    overflow: auto;
+    font-size: 14px;
+    transition: opacity 2s, height 2s;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 35px;
+    color: dimgray;
+}
+
+#description1.hide{
+    height:0;
+    opacity: 1;
+    padding-top:0px;
+    transition: 2s;
+}
+
+#description1.show {
+    height:100px;
+    opacity: 1;
+    
+}
+
+
+
+#headers2 {
+    width: 527px;
+    height:50px;
+    background-color: rgb(87, 196,212);
+    font-size: 18px;
+    color: white;
+    padding-left: 35px;
+    padding-top:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#headers2:hover {
+    width: 527px;
+    height:50px;
+    background-color: rgb(97, 216, 233);
+    font-size: 18px;
+    color: white;
+    padding-left: 35px;
+    padding-top:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(87, 196,212);
+    
+}
+
+#description2 {
+    opacity: 1;
+    height: 0;
+    overflow: auto;
+    transition: opacity 2s, height 2s;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:35px;
+    color: dimgray;
+   
+}
+
+#description2.show {
+    height:100px;
+    opacity: 1;
+    overflow: hidden;
+    padding-left:35px;
+    
+}
+
+
+
+#headers3 {
+    width: 527px;
+    height:50px;
+    background-color: rgb(87, 196,212);
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 35px;
+    padding-top:10px;
+}
+
+#headers3:hover {
+    width: 527px;
+    height:50px;
+    background-color: rgb(97, 216, 233);
+    font-size: 18px;
+    color: white;
+    padding-left: 35px;
+    padding-top:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    order: 1px solid rgb(87, 196,212);
+}
+
+#description3 {
+    opacity: 1;
+    height: 0;
+    overflow: auto;
+    transition: opacity 2s, height 2s;
+    font-size: 14px;
+    padding-left: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgray;
+    
+}
+
+#description3.show {
+    height:110px;
+    opacity: 1;
+}
+
